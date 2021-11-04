@@ -1,0 +1,141 @@
+div.bottom{
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.middle{
+    height: 680px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+div.hero{
+    width: 300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div#actionbox{
+    height: 160px;
+    width: 200px;
+    background-image: url("box.png");
+}
+
+div#enemy{
+    width: 480px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.line1{
+    display:flex
+}
+
+div#enemy1{
+    color: transparent;
+    height: 180px;
+    width: 130px;
+    background-image: url("enemy1.png");
+}
+
+div#enemy2{
+    color: transparent;
+    height: 200px;
+    width: 235px;
+    background-image: url("enemy2.png");
+}
+
+div#enemy3{
+    color: transparent;
+    height: 300px;
+    width: 220px;
+    background-image: url("enemy3.png");
+}
+
+div.top{
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div#box1{
+    height: 150px;
+    width: 150px;
+    background-image: url("box.png");
+}
+
+div#box2{
+    height: 150px;
+    width: 150px;
+    background-image: url("box.png");
+}
+
+div#box3{
+    height: 150px;
+    width: 150px;
+    background-image: url("box.png");
+}
+
+div#box4{
+    height: 150px;
+    width: 150px;
+    background-image: url("box.png");
+}
+
+body {
+    background-image: url("bg.png");
+    color: white;
+}
+
+h3{
+    padding-left: 20px;
+}
+
+h2{
+    font-size: 20px;
+    padding-left: 65px;
+    padding-top: 4px;
+}
+
+h2:hover{
+    color: red;
+}
+
+div#enemy1:hover{
+    color: white;
+}
+
+div#enemy2:hover{
+    color: white;
+}
+
+div#enemy3:hover{
+    color: white;
+}
+
+div#dialoguebox{
+    height: 80px;
+    width: 800px;
+    background-image: url("dilaoguebox.png");
+}
+
+p{
+    color: black;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+div.ligne{
+    display: flex;
+    justify-content: space-between;
+}
